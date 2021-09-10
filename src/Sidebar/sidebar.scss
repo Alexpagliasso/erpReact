@@ -1,0 +1,32 @@
+$bkg-color: darkslategray;
+
+.barraLaterale {
+    height: 100vh;
+    margin-top: 0;
+    background-color: $bkg-color;
+    color: white;
+}
+
+.menuSidebar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+        text-decoration: none;
+    }
+    .sidebarItems {
+        padding: 15px;
+        color: white;
+
+        &:hover {
+            background-color: darken($bkg-color, 10%);
+            cursor: pointer;
+        }
+        
+
+    }
+
+    
+
+}
